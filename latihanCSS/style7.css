@@ -1,0 +1,27 @@
+#header {
+    background: teal;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+
+input[type=text] {
+    background: black;
+    color: cyan;
+    padding: 10px;
+    border: 1px solid cyan;
+}
+
+input[type=email] {
+    background: black;
+    color: cyan;
+    padding: 10px;
+    border: 1px solid cyan;
+}
+
+textarea {
+    background: black;
+    color: cyan;
+    padding: 10px;
+    border: 1px solid cyan;
+}
