@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perulangan While</title>
+</head>
+<body>
+    <h2>Perulangan Uncounted (while)</h2>
+    <script>
+        var ulangi = confirm("Apakah anda mau mengulang?");
+        var count = 0;
+
+        while (ulangi) {
+            var jawab = confirm("Apakah anda mau mengulang?");
+            count++;
+            if (jawab == false){
+                ulangi = false;
+            }
+        }
+
+        document.write(`<p>Perulangan sudah dilakukan sebanyak ${count} kali</p>`);
+    </script>
+</body>
+</html>
