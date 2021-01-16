@@ -1,9 +1,18 @@
+body {
+    background-color: #ffffcc;
+}
+
+fieldset {
+    background-color: teal;
+} 
+
 nav {
-    width: 100%;
+    width: 99,9%;
     height: 50px;
-    border: 1px solid black;
-    line-height: 30px;
-    background: #7CFC00;
+    border-top: 1px solid black;
+    border-bottom: 0px;
+    line-height: 20px;
+    background: teal;
     
 }
 
@@ -17,17 +26,17 @@ nav a{
 }
 
 nav ul li {
-    width: 32%;
+    width: 25%;
     height: 30px;
     float: left;
     list-style: none;
     text-align: center;
-    background: #7CFC00;
+    background: teal;
     font-size: 18px;
 }
 
 nav ul li:hover{
-    background: #7CFC00;;
+    background: teal;
 }
 
 nav ul li:hover ul {
@@ -39,8 +48,69 @@ nav ul li ul {
 }
 
 nav ul li ul li {
-    width: 50%;
-    height: 30px;
+    width: 45%;
+    height: 20px;
     text-align: center;
-    background: #00FF00;
+    background: rgb(0, 99, 99);
+    border: 2.5px solid black;
+    border-top: 0px;
+}
+
+.container{
+    background-image: url(img/background.jpg);
+    
+}
+
+#kepala {
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace; 
+    background-image: url(img/head.jpg); 
+    padding: 1em; 
+    color: white; 
+    height: 150px; 
+    border: 3px solid black; 
+    border-top: 4px solid black;
+}
+
+#kepala_tips {
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace; 
+    background-image: url(img/head_tips.jpg); 
+    padding: 1em; 
+    color: white; 
+    height: 150px; 
+    border: 3px solid black; 
+    border-top: 4px solid black;
+}
+
+#buntut {
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bolder;
+    background-image: url(img/footer.jpg); 
+    padding: 1em; 
+    color: #151b54;
+    border: 3px solid black;
+    border-top: 0px;
+    height: 45px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 23px;
+    right: 27px;
+    z-index: 99;
+    font-size: 11px;
+    border: none;
+    outline: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  
+#myBtn:hover {
+    background-color: #555;
 }
